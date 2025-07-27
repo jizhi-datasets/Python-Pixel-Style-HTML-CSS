@@ -124,11 +124,11 @@ def create_pixel_html(image_path, output_path, pixel_size=10,
 
 if __name__ == "__main__":
     # Configuration parameters
-    input_image = "mountain-477832_1280.jpg"  # Input image path
+    input_image = "29045.jpg"  # Input image path
     output_html = "pixel_art.html"  # Output HTML path
     pixel_size = 5                 # Display size per pixel (pixels)
-    row_interval = 15              # Row sampling interval
-    col_interval = 15              # Column sampling interval
+    row_interval = 10              # Row sampling interval
+    col_interval = 10              # Column sampling interval
     
     create_pixel_html(
         input_image, 
